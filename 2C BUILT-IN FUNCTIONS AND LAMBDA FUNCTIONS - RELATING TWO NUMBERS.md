@@ -1,40 +1,41 @@
 # Exp.No:2c
-## BUILT-IN FUNCTIONS AND LAMBDA FUNCTIONS - RELATING TWO NUMBERS
+## BUILT-IN FUNCTIONS AND LAMBDA FUNCTIONS - RELATING THREE NUMBERS
 
 ---
 
 ### AIM  
-To write a Python program to check the relation between two numbers — whether one number is greater than, equal to, or lesser than another — using a lambda function.
+To Write a function which takes three arguments: a and b and c and returns the addition of them: a+b+c. Assign it to a variable named: f. using python
 
 ---
 
 ### ALGORITHM
 
-1. Begin the program.  
-2. Use `eval()` to get two numbers (`num1` and `num2`) from the user.  
-3. Define a lambda function `max` that takes two arguments `x` and `y`.  
-4. The lambda function compares the numbers and prints:
-   - If `x > y`, then it prints: "`num2` is smaller than `num1`".
-   - Otherwise, it prints: "`num1` is smaller than `num2`".
-5. Call the lambda function by passing `num1` and `num2` as arguments.  
-6. Terminate the program.
+1. Begin the program.
+2. Define a function that accepts three arguments: a, b, and c.
+3. Inside the function, calculate the sum as a + b + c.
+4. Return the sum.
+5. Assign the function name as f.
+6. Call the function with three input values.
+7. Display the returned sum.
+8. End the program.
+
 
 ---
 
 ### PROGRAM
 
 ```
-
+a=int(input())
+b=int(input())
+c=int(input())
+f=lambda a,b,c:a+b+c
+print(f(a,b,c))
 ```
 
 ### OUTPUT
+<img width="487" height="277" alt="image" src="https://github.com/user-attachments/assets/329fa345-f843-4c63-b933-84e203414a79" />
 
-```
-
-```
 
 ### RESULT
+THus a function which takes three arguments: a and b and c and returns the addition of them: a+b+c. Assign it to a variable named: f. using python has been executed successfully.
 
-```
-
-```

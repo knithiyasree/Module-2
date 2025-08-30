@@ -37,10 +37,8 @@ for a in range(2,r+1):
 
 ```
 ### OUTPUT
-```
-<img width="477" height="677" alt="image" src="https://github.com/user-attachments/assets/dba892af-a580-4ff0-87fe-dd2e8b683bad" />
+<img width="477" height="677" alt="image" src="https://github.com/user-attachments/assets/2087b9a3-25d4-4e6e-9be5-4fe30f74086f" />
 
-```
 ### RESULT
 thus a Python program for printing prime numbers using a `for` loop has been executed successfully.
 
